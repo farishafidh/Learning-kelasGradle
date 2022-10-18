@@ -31,13 +31,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Youkoso $name - sama!")
+    Text(text = "Hello $name!")
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     LatgradleTheme {
-        Greeting("Farisu")
+        Greeting("Faris")
     }
 }
